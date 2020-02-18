@@ -1,0 +1,11 @@
+{
+  "name": "oauth-cli",
+  "scripts": {
+    "start": "env `cat .env` node server"
+  },
+  "author": "gwn <dev@gwn.wtf>",
+  "dependencies": {
+    "express": "^4.17.1",
+    "simple-oauth2": "^3.3.0"
+  }
+}
