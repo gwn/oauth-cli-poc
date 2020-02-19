@@ -20,7 +20,7 @@ const app = express()
 app.get('/', (req, res) => {
     const authorizationUri = oauth2.authorizationCode.authorizeURL({
         redirect_uri: env.CALLBACK_URL,
-        scope: env.SCOPE,
+        scope: env.SCOPE.split(','),
         state: 'qzhoeinfgthlkpmpbwqzdswq', // should be randomly generated
     })
 
