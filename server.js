@@ -43,6 +43,7 @@ app.get('/callback', async (req, res) => {
 
         return res.send(token.token.access_token)
     } catch (e) {
+        console.log(e)
         return res.status(500).send('Error: ' + e)
     }
 })
