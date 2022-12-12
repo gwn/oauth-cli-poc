@@ -5,7 +5,7 @@
   },
   "author": "gwn <dev@gwn.wtf>",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "simple-oauth2": "^3.3.0"
   }
 }
